@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" data-accent="teal" data-anim="medium">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About — Copple</title>
+  <meta name="description" content="Built for the work that actually matters." />
+
+  <!-- OpenGraph -->
+  <meta property="og:title" content="About — Copple" />
+  <meta property="og:description" content="Built for the work that actually matters." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://coppleos.com/about.html" />
+  <meta property="og:image" content="https://coppleos.com/connect/copple-og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="connect/copple-white.png" type="image/png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .prose {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 20px;
+      line-height: 1.6;
+      color: var(--ink-2);
+    }
+    .prose h1 {
+      font-size: clamp(40px, 5vw, 64px);
+      font-weight: 500;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: var(--ink);
+      margin-bottom: 24px;
+    }
+    .prose h2 {
+      font-size: 24px;
+      font-weight: 500;
+      color: var(--ink);
+      margin-top: 56px;
+      margin-bottom: 16px;
+    }
+    .prose p {
+      margin-bottom: 24px;
+    }
+    .prose ul {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 24px 0;
+    }
+    .prose li {
+      margin-bottom: 12px;
+      padding-left: 24px;
+      position: relative;
+    }
+    .prose li::before {
+      content: '·';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: bold;
+    }
+    .prose a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-color: transparent;
+      transition: text-decoration-color 0.2s;
+    }
+    .prose a:hover {
+      text-decoration-color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+
+<div class="ambient" aria-hidden="true">
+  <div class="glow glow-1"></div>
+  <div class="glow glow-2"></div>
+  <div class="grain"></div>
+</div>
+
+<nav class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">
+      <img src="connect/copple-white.png" alt="Copple" class="logo-img logo-img-dark" />
+      <img src="connect/copple-full.png" alt="Copple" class="logo-img logo-img-light" />
+    </a>
+    <div class="nav-links">
+      <a href="features.html">Features</a>
+      <a href="index.html#how">How it works</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="customers.html">Customers</a>
+    </div>
+    <div class="nav-actions">
+      <a href="https://console.coppleos.com" class="btn btn-ghost">Log in</a>
+      <button class="theme-toggle" aria-label="Toggle light/dark mode">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <a href="https://console.coppleos.com" class="btn btn-primary" data-magnetic>Start free
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 5l7 7-7 7"/></svg>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main>
+  <section class="section" style="padding-top:160px;padding-bottom:120px;">
+    <div class="container">
+      <div class="prose reveal">
+        <a href="index.html" style="display:inline-block; margin-bottom: 24px; font-size: 16px;">← Back</a>
+        
+        <h1>Built for the work that <span class="serif-italic">actually matters.</span></h1>
+        
+        <p>Copple is the operating system for independent coaches. We started this because the best coaches we know were drowning in admin — scheduling, invoicing, note-taking, follow-ups — and getting paid less for the work that changed lives.</p>
+        <p>We're a small team based across Dubai, Bangalore, and London. We ship every week and we talk to coaches every day.</p>
+
+        <h2>Who we're building for</h2>
+        <p>Executive, life, performance, and wellness coaches running solo or in small teams. People who care more about their craft than their tech stack.</p>
+
+        <h2>What we believe</h2>
+        <ul>
+          <li>Coaching is a high-leverage profession. Tools should treat it that way.</li>
+          <li>AI should disappear into the work, not perform it for show.</li>
+          <li>Your client data is yours. We don't train on it.</li>
+          <li>Workflows beat features. Software should adapt to how you already work.</li>
+        </ul>
+        <p><a href="manifesto.html">Read our Manifesto →</a></p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <img src="connect/copple-white.png" alt="Copple" class="logo-img logo-img-dark" />
+          <img src="connect/copple-full.png" alt="Copple" class="logo-img logo-img-light" />
+        </a>
+        <p>The intelligence layer for modern coaching. Audio-only, encrypted, never used for model training.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="index.html#how">How it works</a></li>
+          <li><a href="pricing.html">Pricing</a></li>
+          <li><a href="coming-soon.html">Changelog</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="manifesto.html">Manifesto</a></li>
+          <li><a href="careers.html">Careers</a></li>
+          <li><a href="press.html">Press kit</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+          <li><a href="security.html">Security</a></li>
+          <li><a href="dpa.html">DPA</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Copple Labs · All rights reserved</span>
+      <span>Made for coaches, in San Francisco</span>
+    </div>
+    <div class="lockup">Copple.</div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
