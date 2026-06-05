@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Features | Copple</title>
+  
+  <meta name="description" content="Explore Copple's premium features: AI session synthesis, package tracking, interactive drafts, and client pulse scoring.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <div class="ambient-bg">
+    <div class="blob blob-1" style="background: var(--sage-soft);"></div>
+    <div class="blob blob-2" style="background: var(--indigo-soft); animation-delay: -3s;"></div>
+  </div>
+
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="index.html" class="logo">
+        <div class="logo-dot"></div>
+        <span>Copple.</span>
+      </a>
+      <div class="nav-links">
+        <a href="features.html" class="active">Features</a>
+        <a href="index.html#how-it-works">How it works</a>
+        <a href="pricing.html">Pricing</a>
+      </div>
+      <div class="nav-actions">
+        <a href="#" class="btn btn-ghost">Log in</a>
+        <a href="#" class="btn btn-primary">Start for free <i class="ph-bold ph-arrow-right"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <main style="padding-top: 160px; min-height: 100vh;">
+    <section class="section-padding">
+      <div class="section-header fade-up">
+        <div class="badge-pill">Platform Deep Dive</div>
+        <h2 class="serif">Intelligence that scales<br>your coaching practice.</h2>
+        <p>Go beyond basic transcription. Copple is designed specifically for the unique workflows of executive and life coaching.</p>
+      </div>
+
+      <div style="margin-top: 100px;">
+        
+        <!-- Feature 1 -->
+        <div class="feature-block fade-up">
+          <div class="feature-text">
+            <h2 class="serif">Executive Synthesis</h2>
+            <p>Our proprietary LLM doesn't just summarize what was said—it analyzes the structure of the coaching conversation. It automatically extracts goal trajectories, emotional shifts, and precise action items.</p>
+            <ul>
+              <li><i class="ph-fill ph-check-circle"></i> Extracts the "Golden Quote" of the session</li>
+              <li><i class="ph-fill ph-check-circle"></i> Maps sentiment shift (e.g., Overwhelmed → Clarity)</li>
+              <li><i class="ph-fill ph-check-circle"></i> Calculates coach-to-client talk ratio and pacing</li>
+            </ul>
+          </div>
+          <div class="feature-graphic">
+            <div style="width: 100%; background: var(--bg-elev); border-radius: var(--r-xl); padding: 32px; box-shadow: var(--shadow-sm); border: 1px solid var(--line);">
+              <div style="margin-bottom: 24px; display: flex; justify-content: space-between;">
+                <span style="font-weight: 600; font-size: 14px;">Sentiment Shift</span>
+                <span style="color: var(--sage); font-weight: 600; font-size: 14px;">Anxious → Clear</span>
+              </div>
+              <div style="background: linear-gradient(145deg, var(--amber-soft), transparent); padding: 24px; border-radius: var(--r-md); border: 1px solid rgba(245,158,11,0.2);">
+                <i class="ph-fill ph-star" style="color: var(--amber); margin-bottom: 8px;"></i>
+                <div class="serif" style="font-size: 20px;">"I realized my 'too busy' was actually a boundary I was afraid to set."</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-block reverse fade-up">
+          <div class="feature-text">
+            <h2 class="serif">Interactive Draft Follow-ups</h2>
+            <p>Spend zero time writing post-session recaps. Copple instantly drafts a highly personalized, empathetic follow-up email directly based on the session's breakthroughs and agreed-upon actions.</p>
+            <ul>
+              <li><i class="ph-fill ph-check-circle"></i> Empathetic, human-sounding tone</li>
+              <li><i class="ph-fill ph-check-circle"></i> Edit inline before sending</li>
+              <li><i class="ph-fill ph-check-circle"></i> Connects directly to your Gmail or Outlook</li>
+            </ul>
+          </div>
+          <div class="feature-graphic">
+            <div style="width: 100%; background: var(--bg-elev); border-radius: var(--r-xl); overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid var(--line);">
+              <div style="background: var(--bg-sunken); padding: 16px 24px; border-bottom: 1px solid var(--line); display: flex; align-items: center; gap: 12px;">
+                <span style="font-size: 12px; font-weight: 700; color: var(--ink-4);">TO:</span>
+                <div style="background: var(--bg); padding: 4px 12px; border-radius: 99px; border: 1px solid var(--line); font-size: 13px; font-weight: 600;">Sarah Jenkins</div>
+              </div>
+              <div style="padding: 32px 24px; font-size: 14px; color: var(--ink-2); line-height: 1.8;">
+                Hi Sarah,<br><br>Something to sit with from today: that moment when you realized "too busy" is a boundary you're afraid to set. That's the real work.<br><br>No rush on the actions we talked about. Just notice what surfaces this week.<br><br>With care,<br>Maya
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-block fade-up">
+          <div class="feature-text">
+            <h2 class="serif">Package Timeline Tracking</h2>
+            <p>Stop losing context between sessions. Copple automatically groups sessions into packages, allowing you to visually track a client's progression across a 3, 6, or 12-month engagement.</p>
+            <ul>
+              <li><i class="ph-fill ph-check-circle"></i> Visual progress bars for coaching packages</li>
+              <li><i class="ph-fill ph-check-circle"></i> Instantly pull context from past sessions</li>
+              <li><i class="ph-fill ph-check-circle"></i> Alerts for package renewals</li>
+            </ul>
+          </div>
+          <div class="feature-graphic">
+            <div style="width: 100%; display: flex; flex-direction: column; gap: 16px;">
+              <div style="background: var(--bg-elev); padding: 16px; border-radius: var(--r-md); border: 1px solid var(--line); display: flex; align-items: center; gap: 16px; opacity: 0.5;">
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: var(--line-strong);"></div>
+                <div style="font-size: 14px; font-weight: 600;">Session 3: Core Values Audit</div>
+              </div>
+              <div style="background: var(--indigo-soft); padding: 16px; border-radius: var(--r-md); border: 1px solid rgba(99,102,241,0.2); display: flex; align-items: center; gap: 16px;">
+                <div style="width: 12px; height: 12px; border-radius: 50%; background: var(--indigo);"></div>
+                <div style="font-size: 14px; font-weight: 600; color: var(--indigo-ink);">Session 4: Executive Synthesis</div>
+              </div>
+              <div style="background: var(--bg-elev); padding: 16px; border-radius: var(--r-md); border: 1px solid var(--line); display: flex; align-items: center; gap: 16px; opacity: 0.5;">
+                <div style="width: 12px; height: 12px; border-radius: 50%; border: 2px solid var(--line-strong);"></div>
+                <div style="font-size: 14px; font-weight: 600;">Session 5: Upcoming</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="cta-section fade-up">
+      <div class="cta-box">
+        <h2 class="serif">Experience the difference.</h2>
+        <p>Join the top 1% of coaches using Copple to deliver premium experiences.</p>
+        <button class="btn btn-primary btn-lg">Start your 14-day free trial</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="logo">
+          <div class="logo-dot"></div>
+          <span>Copple.</span>
+        </a>
+        <p>The intelligence layer for modern coaching.</p>
+      </div>
+      <div class="footer-links">
+        <div class="link-col">
+          <h4>Product</h4>
+          <a href="features.html">Features</a>
+          <a href="index.html#how-it-works">How it works</a>
+          <a href="pricing.html">Pricing</a>
+        </div>
+        <div class="link-col">
+          <h4>Company</h4>
+          <a href="#">About us</a>
+          <a href="#">Blog</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="link-col">
+          <h4>Legal</h4>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
